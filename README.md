@@ -12,4 +12,12 @@ npm install -g @ionic/c
 ```
 ionic start lithium blank --type=angular 
 
+
+```
+
+## Develop
+
+```
+ionic serve
+
 ```
