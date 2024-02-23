@@ -18,8 +18,8 @@ ionic start lithium blank --type=angular
 ## Develop
 
 ```
-==> export API_KEY=<API_KEY_FROM_dot_env>
-
+==> export API_KEY=<API_KEY_FROM https://www.themoviedb.org/>
+ 
 ==> echo $API_KEY
 <API_KEY>
 
@@ -28,7 +28,13 @@ ionic start lithium blank --type=angular
 ==> echo $PRODUCTION
 false
 
-ionic serve
+Then run 
+
+==> npm run build 
+
+to generate the environment.ts file with the API key.
+
+==> ionic serve
 
 ```
 
