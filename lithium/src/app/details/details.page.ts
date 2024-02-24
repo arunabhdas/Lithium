@@ -24,7 +24,7 @@ import {
   InfiniteScrollCustomEvent,
   IonText,
 } from '@ionic/angular/standalone';
-import { DatePipe } from '@angular/common';
+import { CurrencyPipe, DatePipe } from '@angular/common';
 import { MovieService } from '../services/movie.service';
 import { MovieResult } from '../services/interfaces';
 import { cashOutline, calendarOutline } from 'ionicons/icons';
@@ -61,6 +61,7 @@ import { RouterModule } from '@angular/router';
     IonBadge,
     IonInfiniteScroll,
     IonInfiniteScrollContent,
+    CurrencyPipe,
     DatePipe,
     RouterModule
   ]
