@@ -8,24 +8,24 @@
 
 <ion-content>
   @if (isLoading) {
-    <ion-list>
-      @for (i of dummyArray; track i) {
-        <ion-item lines="none" class="ion-padding-bottom">
-          <ion-avatar slot="start">
-            <ion-skeleton-text></ion-skeleton-text>
-          </ion-avatar>
-          <ion-skeleton-text animated style="height: 40px" />
-        </ion-item>
-      }
-    </ion-list>
+  <ion-list>
+    @for (i of dummyArray; track i) {
+    <ion-item lines="none" class="ion-padding-bottom">
+      <ion-avatar slot="start">
+        <ion-skeleton-text></ion-skeleton-text>
+      </ion-avatar>
+      <ion-skeleton-text animated style="height: 40px" />
+    </ion-item>
+    }
+  </ion-list>
   } @else if (error) {
-    <ion-alert header="Error" [message]="error" [buttons]="['Ok']" />
+  <ion-alert header="Error" [message]="error" [buttons]="['Ok']" />
   }
 
 
-<ion-list>
-  @for (item of movies; track item.id) {
-    <ion-item>
+  <ion-list>
+    @for (item of movies; track item.id) {
+    <ion-item button [routerLink]="['/details', item.id]">
       <ion-avatar slot="start">
         <img [src]="imageBaseUrl + '/w92' + item.poster_path" alt="poster" />
         <ion-skeleton-text></ion-skeleton-text>
@@ -34,14 +34,13 @@
         <h3>{{ item.title }}</h3>
         <p>{{ item.release_date | date: 'y' }}</p>
       </ion-label>
+      <ion-badge slot="end">{{ item.vote_average }}</ion-badge>
     </ion-item>
-  }
-</ion-list>
-    <!-- Infinite Scroll -->
-    <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMore($event)">
-      <ion-infinite-scroll-content
-        loadingSpinner="bubbles"
-        loadingText="Loading more movies...">
-      </ion-infinite-scroll-content>
-    </ion-infinite-scroll>
+    }
+  </ion-list>
+  <!-- Infinite Scroll -->
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMore($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more ...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 </ion-content>
