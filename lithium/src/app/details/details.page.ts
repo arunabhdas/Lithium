@@ -1,16 +1,69 @@
 import { Component, Input, OnInit, WritableSignal, inject, signal } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
+import { 
+  IonHeader, 
+  IonToolbar, 
+  IonTitle, 
+  IonContent,
+  IonIcon,
+  IonBackButton,
+  IonButtons,
+  IonCard,
+  IonCardHeader,
+  IonCardTitle,
+  IonCardSubtitle,
+  IonCardContent,
+  IonList, 
+  IonItem,
+  IonSkeletonText,
+  IonAvatar,
+  IonAlert,
+  IonLabel,
+  IonBadge,
+  IonInfiniteScroll,
+  IonInfiniteScrollContent,
+  InfiniteScrollCustomEvent,
+  IonText,
+} from '@ionic/angular/standalone';
+import { DatePipe } from '@angular/common';
 import { MovieService } from '../services/movie.service';
 import { MovieResult } from '../services/interfaces';
+import { cashOutline, calendarOutline } from 'ionicons/icons';
+import { addIcons } from 'ionicons';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-details',
   templateUrl: './details.page.html',
   styleUrls: ['./details.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule]
+  imports: [
+    IonHeader, 
+    IonToolbar, 
+    IonTitle, 
+    IonContent, 
+    IonIcon,
+    IonBackButton,
+    IonButtons,
+    IonCard,
+    IonCardHeader,
+    IonCardTitle,
+    IonCardSubtitle,
+    IonCardContent,
+    IonText,
+    IonLabel,
+    IonButtons,
+    IonList, 
+    IonItem, 
+    IonSkeletonText, 
+    IonAvatar,
+    IonAlert,
+    IonLabel,
+    IonBadge,
+    IonInfiniteScroll,
+    IonInfiniteScrollContent,
+    DatePipe,
+    RouterModule
+  ]
 })
 export class DetailsPage implements OnInit {
   private movieService = inject(MovieService);
@@ -26,7 +79,9 @@ export class DetailsPage implements OnInit {
   }
 
 
-  constructor() { }
+  constructor() { 
+    addIcons({ cashOutline, calendarOutline });
+  }
 
   ngOnInit() {
   }
