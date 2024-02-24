@@ -36,7 +36,11 @@
       </ion-label>
       <ion-badge slot="end">{{ item.vote_average }}</ion-badge>
     </ion-item>
-    }
+    } @empty {@if (!isLoading) {
+      <ion-item lines="none">
+        <ion-label class="ion-text-center">None found</ion-label>
+      </ion-item>
+    }} 
   </ion-list>
   <!-- Infinite Scroll -->
   <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMore($event)">
