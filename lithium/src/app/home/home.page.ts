@@ -38,7 +38,7 @@ export class HomePage {
   private currentPage = 1;
   public error = null;
   public isLoading = false;
-  private movies: MovieResult[] = [];
+  public movies: MovieResult[] = [];
   public imageBaseUrl = 'https://image.tmdb.org/t/p';
   public dummyArray = new Array(5);
   constructor() {
