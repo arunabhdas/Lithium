@@ -50,4 +50,8 @@ ionic g service services/movie
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/arunabhdas/Lithium/main/screenshots/screenshot_1.png" width="200"/>
+<img src="https://raw.githubusercontent.com/arunabhdas/Lithium/main/screenshots/screenshot_1.png" width="400"/>
+
+<img src="https://raw.githubusercontent.com/arunabhdas/Lithium/main/screenshots/screenshot_2.png" width="400"/>
+
+<img src="https://raw.githubusercontent.com/arunabhdas/Lithium/main/screenshots/screenshot_3.png" width="400"/>
