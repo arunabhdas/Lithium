@@ -17,11 +17,11 @@
           <ion-skeleton-text animated style="height: 40px" />
         </ion-item>
       }
-    </ion-list>A
+    </ion-list>
   } @else if (error) {
     <ion-alert header="Error" [message]="error" [buttons]="['Ok']" />
   }
-</ion-content>
+
 
 <ion-list>
   @for (item of movies; track item.id) {
@@ -30,7 +30,18 @@
         <img [src]="imageBaseUrl + '/w92' + item.poster_path" alt="poster" />
         <ion-skeleton-text></ion-skeleton-text>
       </ion-avatar>
-      <ion-skeleton-text animated style="height: 40px" />
+      <ion-label class="ion-text-wrap">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.release_date | date: 'y' }}</p>
+      </ion-label>
     </ion-item>
   }
-</ion-list>A
+</ion-list>
+    <!-- Infinite Scroll -->
+    <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMore($event)">
+      <ion-infinite-scroll-content
+        loadingSpinner="bubbles"
+        loadingText="Loading more movies...">
+      </ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+</ion-content>
