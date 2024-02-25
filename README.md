@@ -37,7 +37,11 @@ to generate the environment.ts file with the API key.
 ==> ionic serve
 
 ```
+## Generate page
 
+```
+ionic g page projects
+```
 ## Generate service
 
 
@@ -46,6 +50,9 @@ ionic g service services/movie
 
 
 ```
+## Versions
+
+Built using Ionic v7 https://ionicframework.com/docs/ and Angular v17
 
 
 ## Screenshots

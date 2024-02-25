@@ -1,5 +1,9 @@
 import { Component, inject } from '@angular/core';
 import { 
+  IonMenu,
+  IonButtons, 
+  IonMenuButton,
+  IonIcon,
   IonHeader, 
   IonToolbar, 
   IonTitle, 
@@ -13,7 +17,7 @@ import {
   IonBadge,
   IonInfiniteScroll,
   IonInfiniteScrollContent,
-  InfiniteScrollCustomEvent, 
+  InfiniteScrollCustomEvent
 } from '@ionic/angular/standalone';
 import { MovieService } from '../services/movie.service';
 import { catchError, finalize } from 'rxjs';
@@ -27,6 +31,10 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['home.page.scss'],
   standalone: true,
   imports: [
+    IonMenu,
+    IonButtons,
+    IonIcon,
+    IonMenuButton,
     IonHeader, 
     IonToolbar, 
     IonTitle, 

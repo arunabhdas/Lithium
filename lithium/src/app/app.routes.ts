@@ -18,4 +18,8 @@ export const routes: Routes = [
     path: 'home-defer',
     loadComponent: () => import('./home-defer/home-defer.page').then( m => m.HomeDeferPage)
   },
+  {
+    path: 'projects',
+    loadComponent: () => import('./projects/projects.page').then( m => m.ProjectsPage)
+  },
 ];
