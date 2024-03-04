@@ -57,7 +57,7 @@ Built using Ionic v7 https://ionicframework.com/docs/ and Angular v17
 
 ## Screenshots
 
-<img src="https://github.com/arunabhdas/Lithium/blob/main/screenshots/screenshot_lithium_1.gif" width="800"/>
+<img src="https://github.com/arunabhdas/Lithium/blob/main/screenshots/screenshot_lithium_1.png" width="800"/>
 
 <img src="https://github.com/arunabhdas/Lithium/blob/main/screenshots/lithium_1.gif" width="400"/>
 
