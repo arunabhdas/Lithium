@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC5358AE2B956724009D7948 /* LithiumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5358AD2B956724009D7948 /* LithiumApp.swift */; };
+		DC5358B02B956724009D7948 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5358AF2B956724009D7948 /* ContentView.swift */; };
+		DC5358B22B956724009D7948 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5358B12B956724009D7948 /* Item.swift */; };
+		DC5358B42B956727009D7948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5358B32B956727009D7948 /* Assets.xcassets */; };
+		DC5358B72B956727009D7948 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5358B62B956727009D7948 /* Preview Assets.xcassets */; };
+		DC5358C12B956727009D7948 /* LithiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5358C02B956727009D7948 /* LithiumTests.swift */; };
+		DC5358CB2B956727009D7948 /* LithiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5358CA2B956727009D7948 /* LithiumUITests.swift */; };
+		DC5358CD2B956727009D7948 /* LithiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5358CC2B956727009D7948 /* LithiumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC5358BD2B956727009D7948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5358A22B956724009D7948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5358A92B956724009D7948;
+			remoteInfo = Lithium;
+		};
+		DC5358C72B956727009D7948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5358A22B956724009D7948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5358A92B956724009D7948;
+			remoteInfo = Lithium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC5358AA2B956724009D7948 /* Lithium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lithium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5358AD2B956724009D7948 /* LithiumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LithiumApp.swift; sourceTree = "<group>"; };
+		DC5358AF2B956724009D7948 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC5358B12B956724009D7948 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DC5358B32B956727009D7948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5358B62B956727009D7948 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC5358BC2B956727009D7948 /* LithiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LithiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5358C02B956727009D7948 /* LithiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LithiumTests.swift; sourceTree = "<group>"; };
+		DC5358C62B956727009D7948 /* LithiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LithiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5358CA2B956727009D7948 /* LithiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LithiumUITests.swift; sourceTree = "<group>"; };
+		DC5358CC2B956727009D7948 /* LithiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LithiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5358A72B956724009D7948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5358B92B956727009D7948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5358C32B956727009D7948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5358A12B956724009D7948 = {
+			isa = PBXGroup;
+			children = (
+				DC5358AC2B956724009D7948 /* Lithium */,
+				DC5358BF2B956727009D7948 /* LithiumTests */,
+				DC5358C92B956727009D7948 /* LithiumUITests */,
+				DC5358AB2B956724009D7948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5358AB2B956724009D7948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358AA2B956724009D7948 /* Lithium.app */,
+				DC5358BC2B956727009D7948 /* LithiumTests.xctest */,
+				DC5358C62B956727009D7948 /* LithiumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5358AC2B956724009D7948 /* Lithium */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358AD2B956724009D7948 /* LithiumApp.swift */,
+				DC5358AF2B956724009D7948 /* ContentView.swift */,
+				DC5358B12B956724009D7948 /* Item.swift */,
+				DC5358B32B956727009D7948 /* Assets.xcassets */,
+				DC5358B52B956727009D7948 /* Preview Content */,
+			);
+			path = Lithium;
+			sourceTree = "<group>";
+		};
+		DC5358B52B956727009D7948 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358B62B956727009D7948 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC5358BF2B956727009D7948 /* LithiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358C02B956727009D7948 /* LithiumTests.swift */,
+			);
+			path = LithiumTests;
+			sourceTree = "<group>";
+		};
+		DC5358C92B956727009D7948 /* LithiumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358CA2B956727009D7948 /* LithiumUITests.swift */,
+				DC5358CC2B956727009D7948 /* LithiumUITestsLaunchTests.swift */,
+			);
+			path = LithiumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5358A92B956724009D7948 /* Lithium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5358D02B956727009D7948 /* Build configuration list for PBXNativeTarget "Lithium" */;
+			buildPhases = (
+				DC5358A62B956724009D7948 /* Sources */,
+				DC5358A72B956724009D7948 /* Frameworks */,
+				DC5358A82B956724009D7948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lithium;
+			productName = Lithium;
+			productReference = DC5358AA2B956724009D7948 /* Lithium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC5358BB2B956727009D7948 /* LithiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5358D32B956727009D7948 /* Build configuration list for PBXNativeTarget "LithiumTests" */;
+			buildPhases = (
+				DC5358B82B956727009D7948 /* Sources */,
+				DC5358B92B956727009D7948 /* Frameworks */,
+				DC5358BA2B956727009D7948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5358BE2B956727009D7948 /* PBXTargetDependency */,
+			);
+			name = LithiumTests;
+			productName = LithiumTests;
+			productReference = DC5358BC2B956727009D7948 /* LithiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC5358C52B956727009D7948 /* LithiumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5358D62B956727009D7948 /* Build configuration list for PBXNativeTarget "LithiumUITests" */;
+			buildPhases = (
+				DC5358C22B956727009D7948 /* Sources */,
+				DC5358C32B956727009D7948 /* Frameworks */,
+				DC5358C42B956727009D7948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5358C82B956727009D7948 /* PBXTargetDependency */,
+			);
+			name = LithiumUITests;
+			productName = LithiumUITests;
+			productReference = DC5358C62B956727009D7948 /* LithiumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5358A22B956724009D7948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DC5358A92B956724009D7948 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DC5358BB2B956727009D7948 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DC5358A92B956724009D7948;
+					};
+					DC5358C52B956727009D7948 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DC5358A92B956724009D7948;
+					};
+				};
+			};
+			buildConfigurationList = DC5358A52B956724009D7948 /* Build configuration list for PBXProject "Lithium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5358A12B956724009D7948;
+			productRefGroup = DC5358AB2B956724009D7948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5358A92B956724009D7948 /* Lithium */,
+				DC5358BB2B956727009D7948 /* LithiumTests */,
+				DC5358C52B956727009D7948 /* LithiumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5358A82B956724009D7948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5358B72B956727009D7948 /* Preview Assets.xcassets in Resources */,
+				DC5358B42B956727009D7948 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5358BA2B956727009D7948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5358C42B956727009D7948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5358A62B956724009D7948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5358B02B956724009D7948 /* ContentView.swift in Sources */,
+				DC5358B22B956724009D7948 /* Item.swift in Sources */,
+				DC5358AE2B956724009D7948 /* LithiumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5358B82B956727009D7948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5358C12B956727009D7948 /* LithiumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5358C22B956727009D7948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5358CB2B956727009D7948 /* LithiumUITests.swift in Sources */,
+				DC5358CD2B956727009D7948 /* LithiumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC5358BE2B956727009D7948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5358A92B956724009D7948 /* Lithium */;
+			targetProxy = DC5358BD2B956727009D7948 /* PBXContainerItemProxy */;
+		};
+		DC5358C82B956727009D7948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5358A92B956724009D7948 /* Lithium */;
+			targetProxy = DC5358C72B956727009D7948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC5358CE2B956727009D7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC5358CF2B956727009D7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC5358D12B956727009D7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lithium/Preview Content\"";
+				DEVELOPMENT_TEAM = Q73A225H22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.lithium.Lithium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC5358D22B956727009D7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lithium/Preview Content\"";
+				DEVELOPMENT_TEAM = Q73A225H22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.lithium.Lithium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC5358D42B956727009D7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q73A225H22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.lithium.LithiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lithium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lithium";
+			};
+			name = Debug;
+		};
+		DC5358D52B956727009D7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q73A225H22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.lithium.LithiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lithium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lithium";
+			};
+			name = Release;
+		};
+		DC5358D72B956727009D7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q73A225H22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.lithium.LithiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lithium;
+			};
+			name = Debug;
+		};
+		DC5358D82B956727009D7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q73A225H22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.lithium.LithiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lithium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5358A52B956724009D7948 /* Build configuration list for PBXProject "Lithium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5358CE2B956727009D7948 /* Debug */,
+				DC5358CF2B956727009D7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5358D02B956727009D7948 /* Build configuration list for PBXNativeTarget "Lithium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5358D12B956727009D7948 /* Debug */,
+				DC5358D22B956727009D7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5358D32B956727009D7948 /* Build configuration list for PBXNativeTarget "LithiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5358D42B956727009D7948 /* Debug */,
+				DC5358D52B956727009D7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5358D62B956727009D7948 /* Build configuration list for PBXNativeTarget "LithiumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5358D72B956727009D7948 /* Debug */,
+				DC5358D82B956727009D7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5358A22B956724009D7948 /* Project object */;
+}
