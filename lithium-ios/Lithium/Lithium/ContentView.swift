@@ -14,20 +14,29 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            Text("Welcome to Lithium")
+            
             NavigationLink(value: "Lithium Labs") {
-                RoundedRectangle(cornerRadius: 10)
-                    .frame(width: 200, height: 50)
-                    .foregroundStyle(.red)
-                Text("Navigate")
-                    .foregroundStyle(.white)
+                VStack(spacing: 8) {
+                    Text("Welcome to Lithium")
+                    RoundedRectangle(cornerRadius: 10)
+                        .frame(width: 200, height: 50)
+                        .foregroundStyle(.cyan)
+                        .overlay(
+                            Text("Navigate")
+                                .foregroundStyle(.white)
+                        )
+
+                }
+
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .contentShape(Rectangle())
+            
             .navigationDestination(for: String.self) { value in
                 Text("Screen 2\(value)")
             }
-        }
-        
 
+        }
         
     }
 }
