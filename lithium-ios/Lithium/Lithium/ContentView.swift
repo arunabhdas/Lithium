@@ -10,30 +10,30 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @State var stack: [String] = []
+    @State var isPresented: Bool = false
     
     var body: some View {
         NavigationStack {
-            
-            NavigationLink(value: "Lithium Labs") {
                 VStack(spacing: 8) {
                     Text("Welcome to Lithium")
-                    RoundedRectangle(cornerRadius: 10)
-                        .frame(width: 200, height: 50)
-                        .foregroundStyle(.cyan)
-                        .overlay(
-                            Text("Navigate")
-                                .foregroundStyle(.white)
-                        )
-
+                    Button {
+                        isPresented.toggle()
+                        
+                    } label: {
+                        Text("Navigate to Screen 2")
+                    }
                 }
-
-            }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .contentShape(Rectangle())
             
-            .navigationDestination(for: String.self) { value in
-                Text("Screen 2\(value)")
+            .navigationDestination(isPresented: $isPresented) {
+                NavigationStack {
+                    VStack {
+                        Text("Screen 2")
+                    }
+                }
+                
             }
 
         }
