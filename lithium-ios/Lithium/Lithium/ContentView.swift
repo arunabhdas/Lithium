@@ -13,7 +13,21 @@ struct ContentView: View {
     @Query private var items: [Item]
     
     var body: some View {
-        Text("Welcome to Lithium")
+        NavigationStack {
+            Text("Welcome to Lithium")
+            NavigationLink(value: "Lithium Labs") {
+                RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 200, height: 50)
+                    .foregroundStyle(.red)
+                Text("Navigate")
+                    .foregroundStyle(.white)
+            }
+            .navigationDestination(for: String.self) { value in
+                Text("Screen 2\(value)")
+            }
+        }
+        
+
         
     }
 }
