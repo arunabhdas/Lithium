@@ -22,7 +22,9 @@ class ScreenHome: Screen {
             Text("Home")
             Button(
                 onClick = {
-                    navigator.push(ScreenDetail())
+                    navigator.push(ScreenDetail(
+                        textString = "Details About Lithium CRM"
+                    ))
                 }
             ) {
                 Text("Navigate to Detail")

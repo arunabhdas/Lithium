@@ -9,7 +9,9 @@ import androidx.compose.ui.Modifier
 import cafe.adriel.voyager.core.screen.Screen
 
 
-class ScreenDetail: Screen {
+data class ScreenDetail(
+    val textString: String
+): Screen {
     @Composable
     override fun Content() {
         Column(
@@ -18,6 +20,7 @@ class ScreenDetail: Screen {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text("Detail")
+            Text(textString)
             Button(
                 onClick = {
 
