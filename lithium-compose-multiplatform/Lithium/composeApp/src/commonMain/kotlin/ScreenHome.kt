@@ -23,6 +23,7 @@ class ScreenHome: Screen {
             Button(
                 onClick = {
                     navigator.push(ScreenDetail(
+                        navigator = navigator,
                         textString = "Details About Lithium CRM"
                     ))
                 }
