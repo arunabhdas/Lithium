@@ -48,6 +48,8 @@ kotlin {
     }
 }
 
+
+
 android {
     namespace = "app.lithium.lithiumapp"
     compileSdk = libs.versions.android.compileSdk.get().toInt()

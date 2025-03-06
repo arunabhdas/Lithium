@@ -1,9 +1,9 @@
 package app.lithium.lithiumapp
 
-import App
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 
@@ -12,13 +12,20 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            App()
+            // Use system dark mode setting
+            App(darkTheme = isSystemInDarkTheme())
         }
     }
 }
 
-@Preview
+@Preview(showBackground = true)
 @Composable
-fun AppAndroidPreview() {
-    App()
+fun AppAndroidLightPreview() {
+    App(darkTheme = false)
+}
+
+@Preview(showBackground = true)
+@Composable
+fun AppAndroidDarkPreview() {
+    App(darkTheme = true)
 }
