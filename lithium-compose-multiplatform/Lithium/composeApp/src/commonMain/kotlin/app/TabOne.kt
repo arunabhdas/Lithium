@@ -2,6 +2,7 @@ package app.lithium.lithiumapp
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.Button
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
@@ -19,7 +20,11 @@ object TabOne: Tab{
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
         ) {
-            Text("Tab One")
+            Button(
+                onClick = {}
+            ) {
+                Text("Tab One")
+            }
         }
     }
 
